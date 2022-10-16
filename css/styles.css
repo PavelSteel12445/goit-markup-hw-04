@@ -142,28 +142,24 @@ img {
 
 /*adress*/
 .adress-link {
+  display: flex;
   align-items: center;
   font-weight: 500;
   color: var(--color-text);
   text-decoration-line: none;
   padding-top: 32px;
   padding-bottom: 32px;
+gap: 10px;
 }
 .adress-link:hover,
 .adress-link:focus {
   color: var(--color-accent);
 }
 /*header-icons*/
-.icon-mail {
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .adress-mail-icon {
   max-width: 16px;
   max-height: 12px;
   align-content: center;
-  margin-right: 10px;
   fill: var(--color-text);
 
 }
@@ -172,18 +168,12 @@ img {
   fill: var(--color-accent);
 }
 /*phone-icon*/
-.phone-icon {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  align-items: center;
-}
 .adress-phone-icon {
   max-width: 10px;
   max-height: 16px;
   align-content: center;
-  margin-right: 10px;
   fill: var(--color-text);
-}
+ }
 .adress-link:hover .adress-phone-icon,
 .adress-link:focus .adress-phone-icon {
   fill: var(--color-accent);
